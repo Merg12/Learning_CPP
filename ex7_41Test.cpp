@@ -17,4 +17,6 @@ int main()
     std::cout << "\n4. use istream as parameter: " << std::endl;
     std::cout << "________________" << std::endl;
     Sales_data s4(std::cin);
+
+    return 0;
 }
