@@ -30,6 +30,6 @@ Sales_data& Sales_data::combine(const Sales_data& rhs)
 
 Sales_data::Sales_data(std::istream& is) : Sales_data()
 {
-    std::cout << "Sales_data(istream & is)" << std::endl;
+    std::cout << "Sales_data(istream& is)" << std::endl;
     read(is, *this);
 }
