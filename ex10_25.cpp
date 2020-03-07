@@ -23,7 +23,7 @@ void biggies(std::vector<std::string>& sVec, std::vector<std::string>::size_type
     auto orderBiggies = std::stable_partition(sVec.begin(), sVec.end(), bind(checkSize, _1, siz));
     std::for_each(sVec.begin(), orderBiggies, [](const std::string& str) {std::cout << str << " ";});
 }
-''
+
 int main()
 {
     std::vector<std::string> sVec{"the","dg","tyrgdf","sfdgsdgbcv","jhgj","ertjju","sfgerfdg","gfhvbncxb","gdhtryrt","sdfgfhg","asdfasd","erfasd"};
