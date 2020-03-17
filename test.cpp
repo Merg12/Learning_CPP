@@ -12,7 +12,7 @@ private:
     std::string memdata;
 };
 
-void print(entity(a))
+void print(std::string a)
 {
     std::cout << a << std::endl;
 }
@@ -21,4 +21,8 @@ int main()
 {
     entity a("sad");
     print("asdf");
+    
+    std::string word;
+    std::cin >> word;
+    std::cout << word;
 }
